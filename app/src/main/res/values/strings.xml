@@ -18,4 +18,5 @@
     <string name="error_incorrect_password">Senha incorreta</string>
     <string name="error_field_required">Este campo é obrigatório </string>
     <string name="permission_rationale">"Permissão aos contatos é necessária"</string>
+    <string name="title_activity_contacts">ContactsActivity</string>
 </resources>
