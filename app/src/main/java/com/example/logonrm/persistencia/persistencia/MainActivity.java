@@ -76,6 +76,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_sharedPre:
                 startActivity(new Intent(this, LoginActivity.class));
                 break;
+            case  R.id.nav_File:
+                startActivity(new Intent(this, LoginFileActivity.class));
+                break;
             default:
                 break;
         }
