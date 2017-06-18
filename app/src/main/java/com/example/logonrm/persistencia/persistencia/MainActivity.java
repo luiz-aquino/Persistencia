@@ -95,6 +95,10 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_content:
                 startActivity(new Intent(this, ContactsActivity.class));
+                break;
+            case  R.id.nav_sqlLite:
+                startActivity(new Intent(this, LoginSqliteActivity.class));
+                break;
             default:
                 break;
         }

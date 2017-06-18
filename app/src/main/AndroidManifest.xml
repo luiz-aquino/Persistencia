@@ -31,6 +31,10 @@
         <activity
             android:name=".ContactsActivity"
             android:label="@string/title_activity_contacts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSqliteActivity"
+            android:label="@string/title_activity_login_sqlite"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
